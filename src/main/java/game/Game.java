@@ -2,6 +2,8 @@ package game;
 
 import json.JsonReader;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -20,7 +22,7 @@ public class Game {
     private final int pointsForMedium = 2;
     private final int pointsForHard = 3;
 
-    private final List<Question> easyQuestions;
+    private List<Question> easyQuestions;
     private final List<Question> mediumQuestions;
     private final List<Question> hardQuestions;
 
@@ -34,9 +36,9 @@ public class Game {
         scanner = new Scanner(System.in);
 
         this.roundNumber = 1;
-        this.easyQuestions = JsonReader.getQuestionListFromJson(easyQuestionsPath);
-        this.mediumQuestions = JsonReader.getQuestionListFromJson(mediumQuestionsPath);
-        this.hardQuestions = JsonReader.getQuestionListFromJson(hardQuestionsPath);
+        this.easyQuestions = new ArrayList<Question>(JsonReader.getQuestionListFromJson(easyQuestionsPath));
+        this.mediumQuestions = new ArrayList<Question>(JsonReader.getQuestionListFromJson(mediumQuestionsPath));
+        this.hardQuestions = new ArrayList<Question>(JsonReader.getQuestionListFromJson(hardQuestionsPath));
     }
 
     public void startTheGame() {
@@ -94,7 +96,11 @@ public class Game {
 
         char answer = getAnswer();
 
-        return answer == questions.get(randomIndex).getRightAnswer();
+        boolean isCorrect = answer == questions.get(randomIndex).getRightAnswer();
+
+        questions.remove(randomIndex);
+
+        return isCorrect;
 
     }
 
