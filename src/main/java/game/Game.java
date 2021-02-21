@@ -3,15 +3,14 @@ package game;
 import json.JsonReader;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
 public class Game {
 
-    private final String easyQuestionsPath = "C:\\Users\\remik\\Desktop\\Dev\\JavaDev\\Quiz\\questions\\easy.json";
-    private final String mediumQuestionsPath = "C:\\Users\\remik\\Desktop\\Dev\\JavaDev\\Quiz\\questions\\medium.json";
-    private final String hardQuestionsPath = "C:\\Users\\remik\\Desktop\\Dev\\JavaDev\\Quiz\\questions\\hard.json";
+    private final String easyQuestionsPath = ".\\questions\\easy.json";
+    private final String mediumQuestionsPath = ".\\questions\\medium.json";
+    private final String hardQuestionsPath = ".\\questions\\hard.json";
 
     private final int easyRounds = 3;
     private final int mediumRounds = 2;
