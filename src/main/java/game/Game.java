@@ -20,6 +20,7 @@ public class Game {
     private final int pointsForEasy = 1;
     private final int pointsForMedium = 2;
     private final int pointsForHard = 3;
+    private final int totalPoints = (pointsForEasy * easyRounds + pointsForMedium * mediumRounds + pointsForHard * hardRounds);
 
     private List<Question> easyQuestions;
     private final List<Question> mediumQuestions;
@@ -66,7 +67,7 @@ public class Game {
             ++roundNumber;
         }
 
-        System.out.println(player.getName() + "! This is your score: " + player.getPoints());
+        System.out.println(player.getName() + "! This is your score: " + player.getPoints() + "/" + totalPoints);
 
         scanner.close();
     }
