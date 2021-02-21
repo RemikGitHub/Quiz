@@ -1,0 +1,43 @@
+[ {
+  "question": "Who had invented java programing language?",
+  "answerA": "Bjarne Stroustop",
+  "answerB": "James gosling",
+  "answerC": "Adolf peter",
+  "answerD": "None of the above",
+  "rightAnswer": "b"
+}, {
+  "question": "What was the previous name of java?",
+  "answerA": "Cocoa",
+  "answerB": "Oak",
+  "answerC": "Tara",
+  "answerD": "Jscript",
+  "rightAnswer": "b"
+}, {
+  "question": "What is the difference between Java and C?",
+  "answerA": "Object oriented programing.",
+  "answerB": "Data type control.",
+  "answerC": "One is a compiled language and the other is a scripting language.",
+  "answerD": "None of the above",
+  "rightAnswer": "a"
+}, {
+  "question": "What is JDK stands for?",
+  "answerA": "Java Development Kit",
+  "answerB": "Java Development kat.",
+  "answerC": "Java Developer Kit",
+  "answerD": "Java Development Kick",
+  "rightAnswer": "a"
+}, {
+  "question": "It is the length of the data type short.",
+  "answerA": "8 bits",
+  "answerB": "16 bits",
+  "answerC": "32 bits",
+  "answerD": "64 bits",
+  "rightAnswer": "b"
+}, {
+  "question": "If A=10, then after B=A++, the value of B is _______.",
+  "answerA": "1",
+  "answerB": "10",
+  "answerC": "11",
+  "answerD": "12",
+  "rightAnswer": "b"
+} ]

@@ -1,0 +1,43 @@
+[ {
+  "question": "Which of the following is the data type used for a single character?",
+  "answerA": "Byte",
+  "answerB": "Short",
+  "answerC": "Long",
+  "answerD": "Char",
+  "rightAnswer": "d"
+}, {
+  "question": "Which of the following is not a unary operator?",
+  "answerA": "Negation",
+  "answerB": "Bitwise complement",
+  "answerC": "Decrement",
+  "answerD": "Assignment",
+  "rightAnswer": "d"
+}, {
+  "question": "It is the Java keyword that creates inheritance.",
+  "answerA": "Enlarge",
+  "answerB": "Extends",
+  "answerC": "Inherits",
+  "answerD": "Inheritance",
+  "rightAnswer": "b"
+}, {
+  "question": "It is the process of removing errors found in the program.",
+  "answerA": "Editing",
+  "answerB": "Debugging",
+  "answerC": "Compiling",
+  "answerD": "Running",
+  "rightAnswer": "b"
+}, {
+  "question": "It is the command used to compile Java program in the command prompt.",
+  "answerA": "Ja",
+  "answerB": "Jav",
+  "answerC": "Java",
+  "answerD": "Javac",
+  "rightAnswer": "b"
+}, {
+  "question": "It is the length of the data type short.",
+  "answerA": "8 bits",
+  "answerB": "16 bits",
+  "answerC": "32 bits",
+  "answerD": "64 bits",
+  "rightAnswer": "b"
+} ]

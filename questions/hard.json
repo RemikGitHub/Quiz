@@ -1,0 +1,43 @@
+[ {
+  "question": "What must the change be so that the following fragment prints out the even integers 0 2 4 6 8 10?  for ( int j = 0; j <= 10; _______   )   System.out.print( j + \" \" );",
+  "answerA": "J = j+2",
+  "answerB": "++j++",
+  "answerC": "J++++",
+  "answerD": "j+2",
+  "rightAnswer": "a"
+}, {
+  "question": "What does the following statement do?   String[] names = new String[10] ; ",
+  "answerA": "It declares names to be a reference to an array of String references and constructs an array object which contains \"10\" in its first slot.",
+  "answerB": "It declares names to be a reference to an array of String references and constructs an array object which can contain references to 10 String objects.",
+  "answerC": "It declares names to be 10 String objects.",
+  "answerD": "It declares names to be a reference to an array of String references and constructs an array object which contains references to the 10 String objects which it also constructs.",
+  "rightAnswer": "b"
+}, {
+  "question": "Fill the blank so that the following fragment prints out 0.2, 0.4, 0.6, 0.8, 1.0,  for ( int j = 2; j <= 10; j+=2   )   System.out.print( __________ + \", \" );",
+  "answerA": "j%10",
+  "answerB": "J/10",
+  "answerC": "j/10.0",
+  "answerD": "(j+1.0)/10",
+  "rightAnswer": "c"
+}, {
+  "question": "When you compile a Java program, what are you doing?",
+  "answerA": "Converting it into a form the computer can better understand",
+  "answerB": "Adding it to your program collection",
+  "answerC": "Saving it to disk",
+  "answerD": "Converting it to object file",
+  "rightAnswer": "a"
+}, {
+  "question": "What must the initialization be so that the following fragment prints out the integers -3 -2 -1 ?  for ( _______; j < 0; j++    )   System.out.print( j + \" \" );   System.out.println( );",
+  "answerA": "Int j < 0",
+  "answerB": "int j = -4",
+  "answerC": "int j = 0",
+  "answerD": "int j = -3",
+  "rightAnswer": "d"
+}, {
+  "question": "What does the following statement do?   int[] values = new int[10] ;  ",
+  "answerA": "It declares values to be a reference to an array object, but initializes it to null.",
+  "answerB": "It declares values to be a reference to an array object and constructs an array object containing 10 integers which are initialized to zero.",
+  "answerC": "It declares values to be a reference to an array which contains 10 references to int variables.",
+  "answerD": "It declares values to be a reference to an array object which does not yet exist, but will contain 10 zeros when it does.",
+  "rightAnswer": "b"
+} ]
